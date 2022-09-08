@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOMEWORK3</title>
+<style>
+.div1 { 
+    color:green;
+    background-color: lightblue; 
+  height: 50px;
+  width: 300px;
+  border-top: dashed red;
+  border-right: dashed green;
+  border-left: dashed purple;
+border-top-left-radius: 7px; 
+border-top-right-radius: 7px; 
+margin-left: 500px;
+  text-align: left;
+
+}
+
+.div1:hover {
+
+color: black; cursor:grab;
+}
+
+
+                        
+
+.div2 { background-color: orange;
+    border-right: dashed green;
+    border-left: dashed purple;
+    border-bottom: dashed blue; 
+    border-bottom-left-radius: 7px; 
+border-bottom-right-radius: 7px; 
+        height: 120px;
+        width: 300px;
+        margin-left: 500px;
+text-align: left;
+font-size: 17px;
+
+ }
+
+h1 { text-align: center; text-decoration: underline;
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1> Class Exercise- Text Styling </h1>
+<br>
+
+<div class="div1" >
+    <h2>Use Class</h2>
+</div>
+<div class="div2" style="color:yellow">
+    Wikipedia is a multilingual free online encyclopedia written and maintained by a community ofWikipedia is hosted by the Wikimedia Foundation, 
+    a non-profit organization that also hosts a range of other projects. 
+</div>
+
+
+</body>
+</html>
