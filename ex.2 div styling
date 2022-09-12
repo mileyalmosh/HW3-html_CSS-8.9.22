@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HOMEWORK3</title>
+<style>
+h1 { width: 300;
+text-align: left;
+text-decoration: underline;
+
+}
+
+div#first 
+{
+  height: 500px;
+  width: 500px;
+  background-color:white;
+  display: flex;
+}
+
+div#first1 {
+  border: 2px solid black;
+    height: 180px;
+  background-color: yellow;
+  flex: 1;
+  margin-left:25px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 18px;
+}
+
+
+div#second2{
+    border: 2px solid black;
+  height: 180px;
+  background-color: yellow;
+  flex: 1;
+  margin-left:25px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 18px;
+}
+
+div#third3{
+    border: 2px solid black;
+  height: 180px;
+  background-color: yellow;
+  flex: 1;
+  margin-left:25px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size: 15px;
+font-size: 15px; 
+table-layout: fixed;
+text-align: inherit; 
+}
+
+.list1 {  
+
+    background-color: blue;
+    border: 2px solid red;
+     font-size: 20px;
+    height: 65px;
+    margin-top: 0px;
+
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+    <h1>Class Exercise- Div Styling </h1>
+
+
+    <div id="first">
+        <div id="first1">First Div</div>
+        <div id="second2">Second Div  </div>
+        <div id="third3">
+           <ul class="list1"  >
+             <li>A</li> 
+            <li>B</li>
+            <li>C</li>
+            </ul>
+        </div>
+      </div>
+      
+
+
+
+</body>
+</html>
